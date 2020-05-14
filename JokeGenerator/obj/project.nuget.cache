@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1pTRiQ+LfrWeo4m2PO2V9qhQklI82tpuylffhmcknPEijaKWL7gjDyKqudCwlZRABebrF2SPi+8CYwnmTOpt0Q==",
+  "dgSpecHash": "6UQhb3tw0huYjfxRGGJIRWFpFXcocGvp6PjmrxVqecN+Bk3ZzcOSQHPRIzHjqffvEHPwxrsFfu7QM6c2MZ8v6g==",
   "success": true,
-  "projectFilePath": "/Users/rob/CS-Challenge/JokeGenerator/JokeGenerator.csproj",
+  "projectFilePath": "/Users/rob/geotabChallenge/JokeGenerator/JokeGenerator.csproj",
   "expectedPackageFiles": [
     "/Users/rob/.nuget/packages/microsoft.extensions.configuration/3.1.3/microsoft.extensions.configuration.3.1.3.nupkg.sha512",
     "/Users/rob/.nuget/packages/microsoft.extensions.configuration.abstractions/3.1.3/microsoft.extensions.configuration.abstractions.3.1.3.nupkg.sha512",

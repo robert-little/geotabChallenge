@@ -295,11 +295,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/rob/CS-Challenge/JokeGenerator/JokeGenerator.csproj",
+      "projectUniqueName": "/Users/rob/geotabChallenge/JokeGenerator/JokeGenerator.csproj",
       "projectName": "JokeGenerator",
-      "projectPath": "/Users/rob/CS-Challenge/JokeGenerator/JokeGenerator.csproj",
+      "projectPath": "/Users/rob/geotabChallenge/JokeGenerator/JokeGenerator.csproj",
       "packagesPath": "/Users/rob/.nuget/packages/",
-      "outputPath": "/Users/rob/CS-Challenge/JokeGenerator/obj/",
+      "outputPath": "/Users/rob/geotabChallenge/JokeGenerator/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/rob/.nuget/NuGet/NuGet.Config"
