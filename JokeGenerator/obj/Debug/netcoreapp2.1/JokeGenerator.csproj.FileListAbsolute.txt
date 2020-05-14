@@ -1,0 +1,12 @@
+/Users/rob/CS-Challenge/ConsoleApp1/bin/Debug/netcoreapp2.1/JokeGenerator.deps.json
+/Users/rob/CS-Challenge/ConsoleApp1/bin/Debug/netcoreapp2.1/JokeGenerator.runtimeconfig.json
+/Users/rob/CS-Challenge/ConsoleApp1/bin/Debug/netcoreapp2.1/JokeGenerator.runtimeconfig.dev.json
+/Users/rob/CS-Challenge/ConsoleApp1/bin/Debug/netcoreapp2.1/JokeGenerator.dll
+/Users/rob/CS-Challenge/ConsoleApp1/bin/Debug/netcoreapp2.1/JokeGenerator.pdb
+/Users/rob/CS-Challenge/ConsoleApp1/obj/Debug/netcoreapp2.1/JokeGenerator.csprojAssemblyReference.cache
+/Users/rob/CS-Challenge/ConsoleApp1/obj/Debug/netcoreapp2.1/JokeGenerator.csproj.CoreCompileInputs.cache
+/Users/rob/CS-Challenge/ConsoleApp1/obj/Debug/netcoreapp2.1/JokeGenerator.AssemblyInfoInputs.cache
+/Users/rob/CS-Challenge/ConsoleApp1/obj/Debug/netcoreapp2.1/JokeGenerator.AssemblyInfo.cs
+/Users/rob/CS-Challenge/ConsoleApp1/obj/Debug/netcoreapp2.1/JokeGenerator.dll
+/Users/rob/CS-Challenge/ConsoleApp1/obj/Debug/netcoreapp2.1/JokeGenerator.pdb
+/Users/rob/CS-Challenge/ConsoleApp1/obj/Debug/netcoreapp2.1/JokeGenerator.genruntimeconfig.cache
