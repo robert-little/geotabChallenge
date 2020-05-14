@@ -13,13 +13,11 @@ namespace JokeGenerator
 
             services.AddHttpClient<ChuckNorrisApiService>();
             services.AddHttpClient<NamesApiService>();
+            services.AddSingleton<JokeGenerator>();
 
             var serviceProvider = services.BuildServiceProvider();
 
-            ChuckNorrisApiService jokeApiService = serviceProvider.GetRequiredService<ChuckNorrisApiService>();
-            NamesApiService nameApiService = serviceProvider.GetRequiredService<NamesApiService>();
-
-            JokeGenerator jokeGenerator = new JokeGenerator(jokeApiService, nameApiService);
+            JokeGenerator jokeGenerator = serviceProvider.GetRequiredService<JokeGenerator>();
             await jokeGenerator.GenerateJokes();
         }
     }

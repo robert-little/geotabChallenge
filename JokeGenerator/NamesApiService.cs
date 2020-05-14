@@ -7,17 +7,17 @@ namespace JokeGenerator
 {
     class NamesApiService
     {
-		private readonly HttpClient _client;
+		private readonly HttpClient client;
         public NamesApiService (HttpClient client)
         {
-            _client = client;
-            _client.BaseAddress = new Uri("https://names.privserv.com/api/");
+            this.client = client;
+            this.client.BaseAddress = new Uri("https://names.privserv.com/api/");
         }
 
         public async Task<Name> GetNamesAsync()
 		{
             Console.WriteLine("Generating Name...");
-			string result = await(_client.GetStringAsync(""));
+			string result = await client.GetStringAsync("");
 			return JsonSerializer.Deserialize<Name>(result);
 		}
     }

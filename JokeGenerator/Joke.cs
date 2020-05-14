@@ -1,5 +1,7 @@
-namespace JokeGenerator {
-    public class Joke {
+namespace JokeGenerator 
+{
+    public class Joke 
+    {
         public string value {get;set;}
     }
 }
