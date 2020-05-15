@@ -113,7 +113,7 @@ namespace JokeGenerator
                     
                     selectionMessage = "How many jokes do you want? (1-9)";
                     // Getting the key for how many jokes the user wants and converting it to an int
-                    int numberOfJokes = (int)Char.GetNumericValue(LimitedCharSelection(selectionMessage, digits));
+                    var numberOfJokes = (int)Char.GetNumericValue(LimitedCharSelection(selectionMessage, digits));
 
                     try
                     {
@@ -193,7 +193,7 @@ namespace JokeGenerator
         private char LimitedCharSelection(string message, char[] validSelection) 
         {
             Console.WriteLine(message);
-            char key = Console.ReadKey().KeyChar;
+            var key = Console.ReadKey().KeyChar;
             Console.WriteLine();
             while(Array.IndexOf(validSelection, key) == -1)
             {
@@ -212,7 +212,7 @@ namespace JokeGenerator
         private string LimitedStringSelection(string message, string[] validSelection) 
         {
             Console.WriteLine(message);
-            string input = Console.ReadLine();
+            var input = Console.ReadLine();
             Console.WriteLine();
             while(Array.IndexOf(validSelection, input) == -1)
             {

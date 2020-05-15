@@ -52,7 +52,7 @@ namespace JokeGenerator
 
 		public async Task<string[]> GetRandomJokesAsync(string name, string category, int numberOfJokes)
 		{
-			StringBuilder endpoint = new StringBuilder("jokes/random");
+			var endpoint = new StringBuilder("jokes/random");
 
             // If a category or a name is provided we add it to the endpoint string as a query param
             // Looking a little deeper into the doc I found that adding a name as a query param does the personalization for you
@@ -74,7 +74,7 @@ namespace JokeGenerator
 
             // Because the user has the option to ask for multiple jokes, we send off all the joke reqs, then wait for them to come back and put them into the output array
             var allJokes = new List<Task>();
-            string[] jokes = new string[numberOfJokes];
+            var jokes = new string[numberOfJokes];
 
             for(int i=0; i<numberOfJokes; i++) 
             {
@@ -83,13 +83,13 @@ namespace JokeGenerator
 
             Console.Write("Loading Jokes...");
 
-            int cnt = 0;
+            var cnt = 0;
             while(allJokes.Count != 0) 
             {
                 // Have to cast the generic task to a string task to get to the result
                 Task<string> finshedJoke = await Task.WhenAny(allJokes) as Task<string>;
 
-                float percent = (float)(cnt+1)/numberOfJokes * 100;
+                var percent = (float)(cnt+1)/numberOfJokes * 100;
 
                 Console.Write("\rLoading Jokes... {0}%", (int)percent);
 

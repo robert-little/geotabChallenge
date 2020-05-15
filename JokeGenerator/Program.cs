@@ -17,7 +17,7 @@ namespace JokeGenerator
 
             var serviceProvider = services.BuildServiceProvider();
 
-            JokeGenerator jokeGenerator = serviceProvider.GetRequiredService<JokeGenerator>();
+            var jokeGenerator = serviceProvider.GetRequiredService<JokeGenerator>();
             await jokeGenerator.GenerateJokes();
         }
     }
