@@ -8,7 +8,7 @@ using System.Collections.Generic;
 
 namespace JokeGenerator
 {
-    class ChuckNorrisApiService
+    public class ChuckNorrisApiService
     {
 		private readonly HttpClient client;
         public ChuckNorrisApiService(HttpClient client)

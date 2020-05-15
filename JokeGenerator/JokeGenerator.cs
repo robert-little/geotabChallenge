@@ -171,10 +171,13 @@ namespace JokeGenerator
         private void PrintResults(string[] results)
         {
             Console.Clear();
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine();
             for (int i=0; i<results.Length; i++) 
             {
                 Console.WriteLine($"{i+1}. {results[i]}");
             }
+            Console.ResetColor();
         }
 
         private void PrintError(string error) {

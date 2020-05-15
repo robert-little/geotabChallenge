@@ -5,7 +5,7 @@ using System.Text.Json;
 
 namespace JokeGenerator
 {
-    class NamesApiService
+    public class NamesApiService
     {
 		private readonly HttpClient client;
         public NamesApiService (HttpClient client)

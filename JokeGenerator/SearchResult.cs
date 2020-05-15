@@ -7,7 +7,7 @@ namespace JokeGenerator
 
         public string[] GetResultsAsStringArray(int maxResults = -1) 
         {
-            if (maxResults == -1) 
+            if (maxResults == -1 || maxResults > total) 
             {
                 maxResults = total;
             }
